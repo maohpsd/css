@@ -1,5 +1,45 @@
-.box{
-height: 100px;
-padding: 5px;
-background-color: gray;
+body {
+
+	margin: 0px;
+	padding: 0px;
 }
+
+.box{
+
+	background-color: #fff;
+	width: calc(25% - 10px);
+	float: left;
+	margin: 5px;
+	box-sizing: border-box; 
+	padding: 15px;
+	text-align: left;
+	margin-top: 150px;
+
+
+}
+
+.box img  {
+
+	width: 100%;
+	text-align: left;
+
+}
+
+.navbar {
+
+	background-color: grey;
+	width: 100%;
+	height: 150px;
+	position: fixed;
+	text-align: center;
+}
+
+.navbar li {
+
+	color: #fff;
+	list-style-type: none;
+	display: inline-block;
+	width: 10%;
+
+}
+
